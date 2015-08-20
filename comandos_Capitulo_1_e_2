@@ -1,0 +1,67 @@
+  281  apt-get install git
+  282  git config --global user.name "Lucas Barbosa Oliveira"
+  283  git config --global user.email "lucascg.barbosa@gmail.com"
+  284  git config --global user.email lucascg.barbosa@gmail.com
+  285  mkdir citacoes
+  286  nano filmes.txt
+  287  git init
+  288  ls -la
+  289  la
+  290  ls
+  291  cd citacoes/
+  292  ls
+  293  git init
+  294  ls
+  295  ls -la
+  296  cd..
+  297  ls
+  298  ls -la
+  299  cd ..
+  300  ls -la
+  301  ls
+  302  ls-a
+  303  ls -la
+  304  ls -a
+  305  rm -rf .git/
+  306  cd citacoes/
+  307  ls
+  308  ls -la
+  309  git status
+  310  git stop
+  311  git init
+  312  git status
+  313  ls
+  314  cd ..
+  315  ls
+  316  mv filmes.txt citacoes/
+  317  ls
+  318  cd citacoes/
+  319  ls
+  320  git status
+  321  git add filmes.txt 
+  322  git status
+  323  git rm filmes.txt 
+  324  git rm --cached filmes.txt 
+  325  git status
+  326  git add filmes.txt 
+  327  git status
+  328  git commit -m "Arquivo inicial de citacoes"
+  329  git status
+  330  nano filmes.txt 
+  331  git status
+  332  git add filmes.txt 
+  333  git commit -m "Inserindo nova citação"
+  334  git status
+  335  git log
+  336  git remote add origin https://github.com/LucboLuc/citacoes.git
+  337  git log
+  338  git push origin master
+  339  cd ..
+  340  mkdir projetos_git
+  341  cd projetos_git/
+  342  git clone https://github.com/LucboLuc/citacoes
+  343  ls
+  344  cd citacoes/
+  345  ls -la
+  346  git clone
+  347  git log
